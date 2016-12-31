@@ -47,8 +47,6 @@ function addClone(item) {
         // Create the new element via clone(), and change it's id
         newElem = $(targetID).clone().attr('id', newID).fadeIn();
 
-    newElem.removeClass("hidden");
-
     // Change the heading text
     newElem.find('.' + targetAttr + '_heading').text(targetAttr + ' #' + newNum);
 
