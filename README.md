@@ -5,7 +5,7 @@ Javascript (and necessary HTML attributes) for enabling add and remove buttons f
 ## Usage
 The script uses a few HTML attributes to connect every button with the element it is cloning and it's corresponding add/delete button. This allows one general function to be called and using the clicked button's attributes we can get all the information we need. All you have to do is ensure your HTML elements contain the appropriate attributes as detailed below, link to the script, and you will have fully functioning add and remove buttons.
 
-Here is a sample HTML setup we'll use to walk through the attributes the script requires (you can check out the basic demo [here](http://codepen.io/illiteratecoder/pen/ybowyY))
+Here is a sample HTML setup we'll use to walk through the attributes the script requires (you can check out the basic demo [here](http://codepen.io/illiteratecoder/pen/dWzrGm))
 
 ```html
 <!-- Section being added/removed -->
