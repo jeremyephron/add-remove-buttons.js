@@ -36,7 +36,7 @@ class="btnDel" value="Remove Button" disabled="" />
 
 ```data-clone``` attribute allows us to count the number of cloned fields that exist (the ```id``` of each new field being the                  value of ```data-clone``` + the number of cloned fields that exists.
 
-```data-field``` attribute is for nested cloned fields, used to appropriate alter the ```id``` attribute of inner elements.
+```data-field``` attribute is for nested cloned fields, used to appropriately alter the ```id``` attribute of inner elements.
 
 ```btnAdd``` class is used to bind the javascript function to add buttons, as well as count the amount of add buttons (and                  therefore remove buttons and fields) within the larger cloned section.
 
